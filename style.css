@@ -37,3 +37,23 @@ a {
   font-weight: bold;
   color: var(--text-dark);
 }
+.nav__logo a:active,
+.nav__logo a:focus {
+  color: var(--text-dark);
+}
+
+.nav__links-items {
+  display: none;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav__hamburger {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
