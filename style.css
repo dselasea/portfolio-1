@@ -37,6 +37,7 @@ a {
   font-weight: bold;
   color: var(--text-dark);
 }
+
 .nav__logo a:active,
 .nav__logo a:focus {
   color: var(--text-dark);
@@ -56,4 +57,51 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+/* Header Styles */
+.hero {
+  text-align: center;
+  background-image: url(./images/header-illsutration-mobile.svg);
+  background-size: cover;
+  background-position: top;
+}
+
+.hero__title {
+  margin-bottom: 3rem;
+}
+
+.hero__content {
+  margin-bottom: 3rem;
+}
+
+.hero__title-dark,
+.hero__title-green {
+  display: block;
+  font-size: 2rem;
+}
+
+.hero__title-dark {
+  color: var(--text-dark);
+}
+
+.hero__title-green {
+  color: var(--text-green);
+}
+
+.hero__social {
+  padding: 1rem;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero__social-links {
+  padding: 0 0.5rem;
+}
+
+.hero_arrow-down {
+  padding: 5rem;
+  cursor: pointer;
 }
