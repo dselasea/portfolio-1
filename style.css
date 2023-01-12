@@ -11,3 +11,29 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+body {
+  font-family: 'Inter', sans-serif;
+  font-size: 100%;
+  background-color: var(--background);
+  line-height: 1.5;
+  color: var(--text-dark);
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+/* Navigation styles */
+.nav__logo a {
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: var(--text-dark);
+}
