@@ -217,3 +217,17 @@ a {
 .about__text {
   margin: 1rem 0;
 }
+
+/* Skills */
+.skills {
+  text-align: center;
+}
+
+.skills .card {
+  background-color: var(--gray);
+}
+
+.skills .card__tags .card__tags-links {
+  background-color: var(--background);
+  color: var(--text-green);
+}
