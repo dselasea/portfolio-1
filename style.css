@@ -207,3 +207,13 @@ a {
   color: var(--text-dark);
   font-weight: bold;
 }
+
+/* About */
+.about {
+  text-align: center;
+  background: url(./images/mobile-illustration-1.svg) 100% 0 no-repeat, url(./images/mobile-illustration-2.svg) 0 100% no-repeat;
+}
+
+.about__text {
+  margin: 1rem 0;
+}
