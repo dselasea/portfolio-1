@@ -256,3 +256,15 @@ a {
 .form-control input {
   padding: 0.8rem;
 }
+
+/* Footer */
+.footer {
+  padding-top: 1rem;
+  padding-bottom: 10rem;
+  text-align: center;
+}
+
+.footer__email {
+  text-decoration: none;
+  color: var(--dark);
+}
