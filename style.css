@@ -231,3 +231,28 @@ a {
   background-color: var(--background);
   color: var(--text-green);
 }
+
+/* Contact */
+.contact {
+  background: url(./images/illustration-contact-mobile.svg) 100% 100% no-repeat;
+}
+
+.contact__form form {
+  text-align: center;
+}
+
+.contact__text {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.form-control input,
+.form-control textarea {
+  width: 100%;
+  margin-bottom: 1rem;
+  border: 2px solid var(--gray);
+}
+
+.form-control input {
+  padding: 0.8rem;
+}
