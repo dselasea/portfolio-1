@@ -177,26 +177,33 @@
 
   <!-- Contact -->
   <section class="contact">
-      <div class="container">
-          <div class="contact__text">
-              <h2 class="heading-2">I'm always interested in hearing about new projects, so if you'd like to chat, please get in touch.</h2>
-          </div>
-          <div class="contact__form">
-              <form>
-                  <div class="form-control">
-                      <input type="text" placeholder="Full name">
-                  </div>
-                  <div class="form-control">
-                      <input type="email" placeholder="Email Address">
-                  </div>
-                  <div class="form-control">
-                      <textarea name="" id="" cols="30" rows="10" placeholder="Enter text here"></textarea>
-                  </div>
-                  <button class="btn">Get in touch</button>
-              </form>
-          </div>
-      </div>
-  </section>
+    <div class="container">
+        <div class="contact__text">
+            <h2 class="heading-2">I'm always interested in hearing about new projects, so if you'd like to chat, please get in touch.</h2>
+        </div>
+        <div class="contact__form">
+            <form action="https://formspree.io/f/mrgdrewl"
+            method="POST">
+                <div class="form-control">
+                    <label>
+                        <input name="full_name" type="text" placeholder="Full name" required maxlength="30">
+                    </label>
+                </div>
+                <div class="form-control">
+                    <label>
+                        <input name="email" type="email" placeholder="Email Address" required>
+                    </label>
+                </div>
+                <div class="form-control">
+                    <label>
+                        <textarea name="message" cols="30" rows="10" placeholder="Enter text here" required maxlength="500"></textarea>
+                    </label>
+                </div>
+                <button class="btn btn__submit" type="submit">Get in touch</button>
+            </form>
+        </div>
+    </div>
+</section>
 
   <!-- Footer -->
   <footer class="footer">
