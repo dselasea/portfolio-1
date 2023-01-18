@@ -247,6 +247,11 @@ a {
   margin-bottom: 2rem;
 }
 
+textarea {
+  padding: 1rem;
+  font-weight: 400;
+}
+
 .form-control input,
 .form-control textarea {
   width: 100%;
