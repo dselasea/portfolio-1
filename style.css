@@ -363,3 +363,24 @@ textarea,
     margin: 0 auto;
   }
 }
+
+/* Desktop styles for 920px */
+@media screen and (min-width: 920px) {
+  .header {
+    padding-bottom: 14.5rem;
+  }
+
+  .hero_arrow-down {
+    padding-top: 6rem;
+  }
+
+  .projects {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .skills__content {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+  }
+}
