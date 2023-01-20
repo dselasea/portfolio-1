@@ -332,5 +332,16 @@ textarea,
     width: 60%;
   }
 
-  
+  .work__heading {
+    padding-top: 4rem;
+  }
+
+  .work__heading-recent,
+  .work__heading-work {
+    display: inline-block;
+  }
+
+  .work__heading-work::before {
+    display: none;
+  }
 }
