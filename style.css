@@ -383,4 +383,43 @@ textarea,
     grid-template-columns: repeat(3, 1fr);
     gap: 2rem;
   }
+
+  .contact {
+    background: url(./images/illustration-desktop-1.svg) 0 100% no-repeat, url(./images/illustration-desktop-2.svg) 25% 80% no-repeat, url(./images/illustration-desktop-3.svg) 100% 50% no-repeat;
+    padding: 6rem 0;
+    border-bottom: 2px solid var(--light-gray);
+  }
+
+  .contact__content {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+  }
+
+  .contact__text {
+    padding-top: 3rem;
+    text-align: left;
+  }
+
+  .contact__form {
+    display: none;
+  }
+
+  .contact__form-desktop {
+    display: block;
+  }
+
+  .contact__name {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+  }
+
+  .footer {
+    padding-bottom: 1rem;
+  }
+
+  .footer__email {
+    display: none;
+  }
 }
