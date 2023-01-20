@@ -2,6 +2,7 @@
 
 :root {
   --background: #fff;
+  --light-gray: #e0e1e6;
   --dark: #42526e;
   --text-dark: #172b4d;
   --text-green: #36b37f;
@@ -35,6 +36,7 @@ a {
   background-color: var(--text-green);
   border-radius: 5px;
   border: 0;
+  margin-top: 1rem;
   margin-bottom: 1.5rem;
 }
 
@@ -62,11 +64,6 @@ a {
 .nav__logo a {
   font-size: 1.3rem;
   font-weight: bold;
-  color: var(--text-dark);
-}
-
-.nav__logo a:active,
-.nav__logo a:focus {
   color: var(--text-dark);
 }
 
@@ -124,8 +121,14 @@ a {
   align-items: center;
 }
 
-.hero__social-links {
+.hero__social-links,
+.nav__links-items a {
   padding: 0 0.5rem;
+}
+
+.nav__logo a:active,
+.nav__logo a:focus {
+  color: var(--text-dark);
 }
 
 .hero_arrow-down {
@@ -173,7 +176,7 @@ a {
 }
 
 .card__img {
-  height: 250px;
+  height: 300px;
   width: 100%;
   background-color: var(--gray);
   margin-bottom: 0.5rem;
@@ -189,23 +192,18 @@ a {
 }
 
 .card__tags {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 0.3rem;
-  flex-wrap: wrap;
-  padding: 1.5rem 0;
   list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .card__tags-links {
-  display: inline-block;
-  font-size: 0.75rem;
-  padding: 0.5rem 0.8rem;
   background-color: var(--gray);
-  border-radius: 5px;
   color: var(--text-dark);
-  font-weight: bold;
+  padding: 0.5rem;
+  border-radius: 5px;
+  margin: 10px 5px;
 }
 
 /* About */
@@ -225,6 +223,7 @@ a {
 
 .skills .card {
   background-color: var(--gray);
+  padding: 2rem 0;
 }
 
 .skills .card__tags .card__tags-links {
@@ -239,17 +238,32 @@ a {
 
 .contact__form form {
   text-align: center;
-  font-weight: 400;
+  display: flex;
+  flex-direction: column;
+}
+
+.contact__form-desktop {
+  display: none;
+}
+
+.btn__submit {
+  background-color: var(--active-state);
+  align-self: center;
+}
+
+.btn__submit:hover {
+  background-color: var(--hover-state);
+  transition: 0.3s ease;
 }
 
 .contact__text {
   text-align: center;
-  margin-bottom: 2rem;
+  margin-bottom: 3rem;
 }
 
-textarea {
-  padding: 1rem;
-  font-weight: 400;
+textarea,
+.form-control input {
+  padding: 0.8rem;
 }
 
 .form-control input,
@@ -257,10 +271,6 @@ textarea {
   width: 100%;
   margin-bottom: 1rem;
   border: 2px solid var(--gray);
-}
-
-.form-control input {
-  padding: 0.8rem;
 }
 
 /* Footer */
@@ -273,4 +283,25 @@ textarea {
 .footer__email {
   text-decoration: none;
   color: var(--dark);
+}
+
+/* Desktop Styles min width 720px */
+@media screen and (min-width: 768px) {
+  .nav__logo,
+  .nav__hamburger {
+    display: none;
+  }
+
+  .nav__links {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .nav__links-items {
+    list-style: none;
+    display: flex;
+  }
+
+  
 }
