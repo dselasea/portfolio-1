@@ -345,3 +345,21 @@ textarea,
     display: none;
   }
 }
+
+/* Desktop styles */
+@media screen and (min-width: 840px) {
+  .projects {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+  }
+
+  .about {
+    background: url(./images/illustration-about-me-2.svg) 0 50% no-repeat, url(./images/illustration-about-me.svg) 100% 50% no-repeat;
+    padding: 3rem 0;
+  }
+
+  .about .about__content {
+    max-width: 60%;
+    margin: 0 auto;
+  }
+}
