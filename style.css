@@ -51,7 +51,7 @@ a {
 }
 
 .heading-2 {
-  font-size: 2rem;
+  font-size: 3rem;
 }
 
 .container {
@@ -102,7 +102,8 @@ a {
 .hero__title-dark,
 .hero__title-green {
   display: block;
-  font-size: 2rem;
+  font-size: 3rem;
+  font-weight: 700;
 }
 
 .hero__title-dark {
@@ -399,10 +400,6 @@ textarea,
   .contact__text {
     padding-top: 3rem;
     text-align: left;
-  }
-
-  .contact__form {
-    display: none;
   }
 
   .contact__form-desktop {
