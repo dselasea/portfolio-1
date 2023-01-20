@@ -303,5 +303,34 @@ textarea,
     display: flex;
   }
 
+  .nav__links-items a {
+    color: var(--dark);
+    font-weight: bold;
+  }
+
+  header {
+    background-image: url(./images/header-illustration-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+  }
+
+  .hero {
+    background-image: none;
+  }
+
+  .hero .container {
+    display: flex;
+    padding: 8rem 0 12rem 0;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .hero__title,
+  .hero__content {
+    width: 60%;
+  }
+
   
 }
