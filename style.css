@@ -237,6 +237,10 @@ a {
   background: url(./images/illustration-contact-mobile.svg) 100% 100% no-repeat;
 }
 
+.contact__text .heading-2 {
+  font-size: 2rem;
+}
+
 .contact__form form {
   text-align: center;
   display: flex;
