@@ -108,10 +108,18 @@ a {
 
 .hero__title-dark {
   color: var(--text-dark);
+  animation-duration: 3s;
+  animation-delay: 1s;
+  animation-name: moveInLeft;
+  position: relative;
 }
 
 .hero__title-green {
   color: var(--text-green);
+  animation-duration: 3s;
+  animation-delay: 1s;
+  animation-name: moveInRight;
+  position: relative;
 }
 
 .hero__social {
@@ -135,6 +143,52 @@ a {
 .hero_arrow-down {
   padding: 2rem;
   cursor: pointer;
+  position: relative;
+  animation: bounce 1s ease infinite normal;
+  top: 0;
+}
+
+/* Animation */
+@keyframes moveInLeft {
+  from {
+    left: -50%;
+  }
+
+  75% {
+    left: 10px;
+  }
+
+  to {
+    left: 0%;
+  }
+}
+
+@keyframes moveInRight {
+  from {
+    right: -50%;
+  }
+
+  75% {
+    right: 10px;
+  }
+
+  to {
+    right: 0;
+  }
+}
+
+@keyframes bounce {
+  0% {
+    top: 0;
+  }
+
+  50% {
+    top: 10px;
+  }
+
+  to {
+    top: 0;
+  }
 }
 
 /* Recent work styles */
