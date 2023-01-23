@@ -74,7 +74,7 @@
 
 > Add a link to your deployed project.
 
-- [Live Demo Link]() - Not Available
+- [Live Demo Link]() - (https://dselasea.github.io/portfolio-1/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -150,7 +150,7 @@ Example command:
 
 ### Deployment
 
-You can deploy this project using:
+You can deploy this project using: Github pages or any hosting service
 
 <!--
 Example:
