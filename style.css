@@ -43,7 +43,7 @@ a {
 .btn:hover {
   background-color: var(--hover-state);
   cursor: pointer;
-  /* transition: 0.3s ease; */
+  transition: 0.3s ease;
 }
 
 .btn:focus,
@@ -403,10 +403,6 @@ textarea,
 
   .work__heading-work::before {
     display: none;
-  }
-
-  .contact .heading-2 {
-    font-size: 2.5rem;
   }
 }
 
