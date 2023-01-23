@@ -43,7 +43,7 @@ a {
 .btn:hover {
   background-color: var(--hover-state);
   cursor: pointer;
-  /* transition: 0.3s ease; */
+  transition: 0.3s ease;
 }
 
 .btn:focus,
