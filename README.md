@@ -74,7 +74,7 @@
 
 > Add a link to your deployed project.
 
-- [Live Demo Link]() - (https://dselasea.github.io/portfolio-1/)
+- [Live Demo Link]() - https://dselasea.github.io/portfolio-1/
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
