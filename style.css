@@ -404,10 +404,6 @@ textarea,
   .work__heading-work::before {
     display: none;
   }
-
-  .contact .heading-2 {
-    font-size: 2.5rem;
-  }
 }
 
 /* Desktop styles */
