@@ -63,7 +63,7 @@
 
 > Add a link to your deployed project.
 
-- [Live Demo Link](https://dselasea.github.io/portfolio-1/) 
+- [Live Demo Link] <a href="https://dselasea.github.io/portfolio-1/" target="_blank">https://dselasea.github.io/portfolio-1/</a>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -102,7 +102,7 @@ Example commands:
 
 ### Install
 
-Install this project with:
+No Installation required
 
 <!--
 Example command:
@@ -115,8 +115,10 @@ Example command:
 
 ### Usage
 
-To run the project, execute the following command:
-
+To run the project:
+<ul>
+    <li>Run the html file in a web browser</li>
+  </ul>
 <!--
 Example command:
 
@@ -139,7 +141,7 @@ Example command:
 
 ### Deployment
 
-You can deploy this project using: Github pages or any hosting service
+This website is live <a href="https://dselasea.github.io/portfolio-1">here</a>
 
 <!--
 Example:
