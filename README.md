@@ -63,7 +63,7 @@
 
 > Add a link to your deployed project.
 
-- [Live Demo Link] <a href="https://dselasea.github.io/portfolio-1/" target="_blank">https://dselasea.github.io/portfolio-1/</a>
+- [Live Demo Link] <a href="https://dselasea.github.io/portfolio-1/" target="_blank">Click here</a>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -159,7 +159,7 @@ Example:
 
 > Mention all of the collaborators of this project.
 
-👤 **Author1**
+👤 **Author**
 
 - GitHub: [@dselasea](https://github.com/dselasea)
 - Twitter: [@danielsanyidoho](https://twitter.com/danielsanyidoho)
