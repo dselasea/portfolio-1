@@ -34,11 +34,10 @@
 
 > This is a simple webpage build from one of Microverse's portfolio templates.
 
-**[Hello Microverse]** is a simple project that prepares and teaches the student how to use Linters in a Microverse Project
 
-## 🛠 Built With <a name="built-with">HTML and CSS</a>
+## 🛠 Built With <a name="built-with">Client</a>
 
-### Tech Stack <a name="tech-stack">HTML and CSS</a>
+### Tech Stack <a name="tech-stack"><ul><li>HTML</li></ul></a>
 
 > Describe the tech stack and include only the relevant sections that apply to your project.
 
