@@ -37,20 +37,10 @@
 
 ## 🛠 Built With <a name="built-with">Client</a>
 
-### Tech Stack <a name="tech-stack"><ul><li>HTML</li></ul></a>
-
-> Describe the tech stack and include only the relevant sections that apply to your project.
-
-<details>
+### Tech Stack <details>
   <summary>Structure</summary>
   <ul>
     <li>HTML</li>
-  </ul>
-</details>
-
-<details>
-  <summary>Style</summary>
-  <ul>
     <li>CSS</li>
   </ul>
 </details>
@@ -73,7 +63,7 @@
 
 > Add a link to your deployed project.
 
-- [Live Demo Link]() - https://dselasea.github.io/portfolio-1/
+- [Live Demo Link](https://dselasea.github.io/portfolio-1/) 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
