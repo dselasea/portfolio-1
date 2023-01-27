@@ -30,9 +30,9 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Portfolio Project] <a name="about-project">This is a Portfolio project to showcase my skills and for present and future projects</a>
+# 📖<a name="about-project">Microverse Portfolio Project</a>
 
-> Describe your project in 1 or 2 sentences.
+> This is a simple webpage build from one of Microverse's portfolio templates.
 
 **[Hello Microverse]** is a simple project that prepares and teaches the student how to use Linters in a Microverse Project
 
