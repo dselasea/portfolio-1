@@ -29,7 +29,6 @@
 - [📝 License](#license)
 
 <!-- PROJECT DESCRIPTION -->
-
 # Microverse Portfolio Project <a name="about-project"></a>
 
 > A simple web portfolio built from one of Microverse's templates.
@@ -47,13 +46,6 @@
   </ul>
 </details>
 
-<!-- <details>
-  <summary>Server</summary>
-  <ul>
-    <li><a href="https://expressjs.com/">Express.js</a></li>
-  </ul>
-</details>
-
 <details>
 <summary>Database</summary>
   <ul>
@@ -63,7 +55,7 @@
 
 <!-- Features -->
 
-### Key Features <a name="key-features"></a>
+### Key Features <a name="key-features">HTML Form, Mobile Menu, Responsive Design</a>
 
 - A Header section
 - An Intro section
@@ -77,8 +69,6 @@
 <!-- LIVE DEMO -->
 
 ## 🚀 Live Demo <a name="live-demo"></a>
-
-<!-- > Add a link to your deployed project. -->
 
 - [Live Demo Link](https://dselasea.github.io/portfolio-1/)
 
@@ -113,9 +103,6 @@ Clone this repository to your desired folder:
 
 ### Install
 
-No Installation required!
-
-
 <!-- Example command:
 
 ```sh
@@ -127,7 +114,9 @@ No Installation required!
 ### Usage
 
 To run the project:
-- Run the html file in a web browser.
+<ul>
+    <li>Run the html file in a web browser</li>
+  </ul>
 <!--
 Example command:
 
@@ -148,8 +137,9 @@ Example command:
 ```
 --->
 
-### Deployment <a name="triangular_flag_on_post-deployment"></a>
-  This website is live at [this link](https://dselasea.github.io/portfolio-1/)
+### Deployment
+
+This website is live <a href="https://dselasea.github.io/portfolio-1">here</a>
 
 <!--
 Example:
@@ -166,7 +156,6 @@ Example:
 ## 👥 Authors <a name="authors"></a>
 
 <!-- > Mention all of the collaborators of this project. -->
-
 👤 **Daniel Selase Anyidoho**
 
 - GitHub: [@dselasea](https://github.com/dselasea)
