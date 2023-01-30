@@ -9,6 +9,7 @@
   --gray: #ebf0ee;
   --hover-state: #36b37f;
   --active-state: #008552;
+  --menu-color: #344563;
 }
 
 * {
@@ -106,7 +107,7 @@ a {
 }
 
 .nav__links-items a {
-  color: #42526e;
+  color: var(--menu-color);
 }
 
 .close {
@@ -393,6 +394,12 @@ textarea,
   .nav__logo,
   .nav__hamburger {
     display: none;
+  }
+
+  .nav__links.show {
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
   .nav__links {
