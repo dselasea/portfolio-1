@@ -1,26 +1,26 @@
 <a name="readme-top"></a>
 
-  <h3><b>Personal Portfolio project</b></h3>
-
+<div align="center">
+  <h3><b>Microverse Portfolio Project</b></h3>
 </div>
 
 <!-- TABLE OF CONTENTS -->
 
 # 📗 Table of Contents
 
-- [📖 About the Project](#)
-  - [🛠 Built With](#HTML-CSS)
-    - [Tech Stack](#THML-CSS)
-    - [Key Features](#h)
+- [📖 About the Project](#about-project)
+  - [🛠 Built With](#built-with)
+    - [Tech Stack](#tech-stack)
+    - [Key Features](#key-features)
   - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
+  - [Prerequisites](#prerequisites)
   - [Setup](#setup)
-  - [Prerequisites](#HTML-CSS-GIT)
   - [Install](#install)
   - [Usage](#usage)
   - [Run tests](#run-tests)
   - [Deployment](#triangular_flag_on_post-deployment)
-- [👥 Authors](#Daniel-Selase-Anyidoho)
+- [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
@@ -30,41 +30,47 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Portfolio Project] <a name="about-project">This is a Portfolio project to showcase my skills and for present and future projects</a>
+# Microverse Portfolio Project <a name="about-project"></a>
 
-> Describe your project in 1 or 2 sentences.
+> A simple web portfolio built from one of Microverse's templates.
 
-**[Hello Microverse]** is a simple project that prepares and teaches the student how to use Linters in a Microverse Project
+## 🛠 Built With <a name="built-with"></a>
 
-## 🛠 Built With <a name="built-with">HTML and CSS</a>
-
-### Tech Stack <a name="tech-stack">HTML and CSS</a>
-
-> Describe the tech stack and include only the relevant sections that apply to your project.
+### Tech Stack <a name="tech-stack"></a>
 
 <details>
-  <summary>Structure</summary>
+  <summary>Client</summary>
   <ul>
     <li>HTML</li>
+    <li>CSS</li>
+    <li>Javascript</li>
+  </ul>
+</details>
+
+<!-- <details>
+  <summary>Server</summary>
+  <ul>
+    <li><a href="https://expressjs.com/">Express.js</a></li>
   </ul>
 </details>
 
 <details>
-  <summary>Style</summary>
+<summary>Database</summary>
   <ul>
-    <li>CSS</li>
+    <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
   </ul>
-</details>
+</details> -->
 
 <!-- Features -->
 
 ### Key Features <a name="key-features"></a>
 
-> Describe between 1-3 key features of the application.
-
-- **[HTML]**
-- **[CSS]**
-- **[Linters]**
+- A Header section
+- An Intro section
+- A Works section
+- An About section
+- A Contact section
+- Responsive Mobile and Desktop Versions
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -72,9 +78,9 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-> Add a link to your deployed project.
+<!-- > Add a link to your deployed project. -->
 
-- [Live Demo Link]() - https://dselasea.github.io/portfolio-1/
+- [Live Demo Link](https://dselasea.github.io/portfolio-1/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -82,13 +88,10 @@
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-> Describe how a new developer could make use of your project.
-
-To get a local copy up and running, follow these steps.
-
 ### Prerequisites
 
 In order to run this project you need:
+- A web browser
 
 <!--
 Example command:
@@ -102,43 +105,40 @@ Example command:
 
 Clone this repository to your desired folder:
 
-<!--
-Example commands:
-
 ```sh
   cd my-folder
-  git clone git@github.com:myaccount/my-project.git
+  git clone https://github.com/dselasea/portfolio-1.git
 ```
---->
+
 
 ### Install
 
-Install this project with:
+No Installation required!
 
-<!--
-Example command:
+
+<!-- Example command:
 
 ```sh
   cd my-project
   gem install
 ```
---->
+- -->
 
 ### Usage
 
-To run the project, execute the following command:
-
+To run the project:
+- Run the html file in a web browser.
 <!--
 Example command:
 
 ```sh
   rails server
 ```
---->
+-
 
 ### Run tests
 
-To run tests, run the following command:
+There are no tests available to run.
 
 <!--
 Example command:
@@ -148,9 +148,8 @@ Example command:
 ```
 --->
 
-### Deployment
-
-You can deploy this project using: Github pages or any hosting service
+### Deployment <a name="triangular_flag_on_post-deployment"></a>
+  This website is live at [this link](https://dselasea.github.io/portfolio-1/)
 
 <!--
 Example:
@@ -166,13 +165,79 @@ Example:
 
 ## 👥 Authors <a name="authors"></a>
 
-> Mention all of the collaborators of this project.
+<!-- > Mention all of the collaborators of this project. -->
 
-👤 **Author1**
+👤 **Daniel Selase Anyidoho**
 
 - GitHub: [@dselasea](https://github.com/dselasea)
 - Twitter: [@danielsanyidoho](https://twitter.com/danielsanyidoho)
 - LinkedIn: [Daniel Selase Anyidoho](https://www.linkedin.com/in/danielsanyidoho/)
+
+👤 **Koshao Kazungu Godfrey**
+
+- GitHub: [@Koshao-sys](https://github.com/Koshao-sys)
+<!-- - Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
+- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle) -->
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- FUTURE FEATURES -->
+
+## 🔭 Future Features <a name="future-features"></a>
+
+<!-- > Describe 1 - 3 features you will add to the project. -->
+None for now 🙂
+<!-- - [ ] **Responsive desktop version** -->
+<!-- - [ ] **[new_feature_3]** -->
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- CONTRIBUTING -->
+
+## 🤝 Contributing <a name="contributing"></a>
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](../../issues/).
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- SUPPORT -->
+
+## ⭐️ Show your support <a name="support"></a>
+
+<!-- > Write a message to encourage readers to support your project -->
+
+If you like this project, give it a ⭐
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- ACKNOWLEDGEMENTS -->
+
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
+
+<!-- > Give credit to everyone who inspired your codebase. -->
+
+No acknowledgements. 🙂
+<!-- I would like to thank... -->
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- FAQ (optional) -->
+
+## ❓ FAQ (OPTIONAL) <a name="faq"></a>
+
+<!-- > Add at least 2 questions new developers would ask when they decide to use your project. -->
+
+- No FAQ
+
+<!-- - **[Question_1]**
+
+  - [Answer_1]
+
+- **[Question_2]**
+
+  - [Answer_2] -->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
