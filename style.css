@@ -70,25 +70,46 @@ a {
 
 .nav__links {
   display: none;
+  width: 100%;
+  background-color: #fff;
+  z-index: 1;
+  transition: 0.5s;
+  justify-content: center;
 }
 
 .nav__links.show {
   display: block;
+  width: 100%;
+  height: 100%;
+  align-items: center;
 }
 
 .nav__links-items {
-  /* display: none; */
+  display: block;
   list-style-type: none;
   position: fixed;
   left: 0;
   right: 0;
   top: 0;
   bottom: 0;
-  /* background-color: #fff; */
+  height: 100%;
+  background-color: #fff;
+  padding-top: 200px;
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+.nav__links-items li {
+  align-items: center;
+}
+
+.nav__links-items a {
+  color: #42526e;
 }
 
 .close {
   display: none;
+  z-index: 2;
 }
 
 
