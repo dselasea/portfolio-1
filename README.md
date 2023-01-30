@@ -1,10 +1,11 @@
 <a name="readme-top"></a>
 
 <div align="center">
-  <h3><b>Microverse Portfolio Project</b></h3>
-</div>
+  <br/>
 
-<!-- TABLE OF CONTENTS -->
+  <h3><b>Daniel Selase's Portfolio project</b></h3>
+
+</div>
 
 # 📗 Table of Contents
 
@@ -12,65 +13,48 @@
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
-  - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
-  - [Prerequisites](#prerequisites)
   - [Setup](#setup)
+  - [Prerequisites](#prerequisites)
   - [Install](#install)
   - [Usage](#usage)
   - [Run tests](#run-tests)
   - [Deployment](#triangular_flag_on_post-deployment)
 - [👥 Authors](#authors)
-- [🔭 Future Features](#future-features)
-- [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
 - [❓ FAQ (OPTIONAL)](#faq)
 - [📝 License](#license)
 
-<!-- PROJECT DESCRIPTION -->
-# Microverse Portfolio Project <a name="about-project"></a>
 
-> A simple web portfolio built from one of Microverse's templates.
+# 📖 [Daniel Selase's Portfolio Site] <a name="about-project">Microverse Portfolio Project</a>
+
+**Daniel Selase's Portfolio Site** This is a simple webpage build from one of Microverse's portfolio templates as part of mastering the use of HTML and CSS and also Building a personal portfolio project.
 
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
 
-<details>
-  <summary>Client</summary>
+## 🛠 Built With <a name="built-with">HTML, CSS and JavaScript</a>
+
+### Tech Stack HTML and CSS<details>
+  <summary>Structure</summary>
   <ul>
     <li>HTML</li>
     <li>CSS</li>
-    <li>Javascript</li>
   </ul>
 </details>
 
-<details>
-<summary>Database</summary>
-  <ul>
-    <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
-  </ul>
-</details> -->
-
 <!-- Features -->
 
-### Key Features <a name="key-features">HTML Form, Mobile Menu, Responsive Design</a>
+### Key Features <a name="key-features"></a>
 
-- A Header section
-- An Intro section
-- A Works section
-- An About section
-- A Contact section
-- Responsive Mobile and Desktop Versions
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- LIVE DEMO -->
-
-## 🚀 Live Demo <a name="live-demo"></a>
-
-- [Live Demo Link](https://dselasea.github.io/portfolio-1/)
+- **Html page**
+- **CSS File**
+- **.gitignore file**
+- **Browsing to other Menus**
+- **Browsing to social links**
+- **Contact Form**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -78,10 +62,12 @@
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
+
+To get a local copy up and running, follow these steps.
+
 ### Prerequisites
 
-In order to run this project you need:
-- A web browser
+In order to run this project you need: VS Code
 
 <!--
 Example command:
@@ -93,41 +79,45 @@ Example command:
 
 ### Setup
 
-Clone this repository to your desired folder:
+Clone this repository to your desired folder: https://github.com/dselasea/portfolio-1.git
+
+<!--
+Example commands:
 
 ```sh
   cd my-folder
-  git clone https://github.com/dselasea/portfolio-1.git
+  git clone git@github.com:myaccount/my-project.git
 ```
-
+--->
 
 ### Install
 
-<!-- Example command:
+Install this project with: VS Code
+
+<!--
+Example command:
 
 ```sh
   cd my-project
   gem install
 ```
-- -->
+--->
 
 ### Usage
 
-To run the project:
-<ul>
-    <li>Run the html file in a web browser</li>
-  </ul>
+To run the project, execute the following command: npm start
+
 <!--
 Example command:
 
 ```sh
   rails server
 ```
--
+--->
 
 ### Run tests
 
-There are no tests available to run.
+To run tests, run the following command:
 
 <!--
 Example command:
@@ -139,7 +129,7 @@ Example command:
 
 ### Deployment
 
-This website is live <a href="https://dselasea.github.io/portfolio-1">here</a>
+You can deploy this project using: Github Pages
 
 <!--
 Example:
@@ -155,7 +145,6 @@ Example:
 
 ## 👥 Authors <a name="authors"></a>
 
-<!-- > Mention all of the collaborators of this project. -->
 👤 **Daniel Selase Anyidoho**
 
 - GitHub: [@dselasea](https://github.com/dselasea)
@@ -164,9 +153,9 @@ Example:
 
 👤 **Koshao Kazungu Godfrey**
 
-- GitHub: [@Koshao-sys](https://github.com/Koshao-sys)
-<!-- - Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle) -->
+- GitHub: [@githubhandle](https://github.com/koshao-sys)
+- Twitter: [@twitterhandle](https://twitter.com/koshao)
+- LinkedIn: [LinkedIn](https://linkedin.com/in/koshao)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -174,20 +163,11 @@ Example:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-<!-- > Describe 1 - 3 features you will add to the project. -->
-None for now 🙂
-<!-- - [ ] **Responsive desktop version** -->
-<!-- - [ ] **[new_feature_3]** -->
+> Describe 1 - 3 features you will add to the project.
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- CONTRIBUTING -->
-
-## 🤝 Contributing <a name="contributing"></a>
-
-Contributions, issues, and feature requests are welcome!
-
-Feel free to check the [issues page](../../issues/).
+- [ ] **Web view**
+- [ ] **Projects directory**
+- [ ] **Live chat**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -195,9 +175,7 @@ Feel free to check the [issues page](../../issues/).
 
 ## ⭐️ Show your support <a name="support"></a>
 
-<!-- > Write a message to encourage readers to support your project -->
-
-If you like this project, give it a ⭐
+If you like this project hit me up on my email: dselasea@gmail.com or Twitter up there
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -205,10 +183,8 @@ If you like this project, give it a ⭐
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-<!-- > Give credit to everyone who inspired your codebase. -->
 
-No acknowledgements. 🙂
-<!-- I would like to thank... -->
+I would like to thank my coding partners for the support and the great ideas shared.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -216,17 +192,16 @@ No acknowledgements. 🙂
 
 ## ❓ FAQ (OPTIONAL) <a name="faq"></a>
 
-<!-- > Add at least 2 questions new developers would ask when they decide to use your project. -->
+- **How do you add an image in a span?**
+  - using the tag img
 
-- No FAQ
+- **How did you sort all the linterrors?**
 
-<!-- - **[Question_1]**
+  - Read this to understand a linter for HTML and CSS(https://github.com/microverseinc/linters-config)
 
-  - [Answer_1]
+- **How do you ignore files in your repository?**
 
-- **[Question_2]**
-
-  - [Answer_2] -->
+  - By adding there names to the .gitignore files.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
