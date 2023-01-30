@@ -41,6 +41,14 @@ a {
   margin-bottom: 1.5rem;
 }
 
+/* Display flex */
+.nav,
+.hero__social,
+.card__tags,
+.contact__form form {
+  display: flex;
+}
+
 .btn:hover {
   background-color: var(--hover-state);
   cursor: pointer;
@@ -95,7 +103,7 @@ a {
   bottom: 0;
   height: 100%;
   background-color: #fff;
-  padding-top: 8rem;
+  padding-top: 5.5rem;
   padding-left: 2rem;
   font-weight: bold;
   font-size: 2rem;
@@ -116,13 +124,11 @@ a {
 }
 
 .nav {
-  display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
 .nav__hamburger {
-  display: flex;
   justify-content: center;
   align-items: center;
 }
@@ -169,7 +175,6 @@ a {
 .hero__social {
   padding: 1rem;
   list-style: none;
-  display: flex;
   justify-content: center;
   align-items: center;
 }
@@ -292,7 +297,6 @@ a {
 
 .card__tags {
   list-style: none;
-  display: flex;
   flex-wrap: wrap;
   justify-content: center;
 }
@@ -341,7 +345,6 @@ a {
 
 .contact__form form {
   text-align: center;
-  display: flex;
   flex-direction: column;
 }
 
@@ -395,21 +398,26 @@ textarea,
     display: none;
   }
 
-  .nav__links.show {
+  .nav__links.show,
+  .nav__links,
+  .nav__links-items,
+  .hero .container {
     display: flex;
+  }
+
+
+  .nav__links.show {
     justify-content: center;
     align-items: center;
   }
 
   .nav__links {
     width: 100%;
-    display: flex;
     justify-content: center;
     background: transparent;
   }
 
   .nav__links-items {
-    display: flex;
     background-color: transparent;
     position: static;
     padding-top: 2rem;
@@ -434,7 +442,6 @@ textarea,
   }
 
   .hero .container {
-    display: flex;
     padding: 8rem 0 12rem 0;
     flex-direction: column;
     justify-content: center;
