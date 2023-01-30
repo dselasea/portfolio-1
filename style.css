@@ -405,7 +405,6 @@ textarea,
     display: flex;
   }
 
-
   .nav__links.show {
     justify-content: center;
     align-items: center;
