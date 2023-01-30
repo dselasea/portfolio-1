@@ -41,14 +41,6 @@ a {
   margin-bottom: 1.5rem;
 }
 
-/* Display flex */
-.nav,
-.hero__social,
-.card__tags,
-.contact__form form {
-  display: flex;
-}
-
 .btn:hover {
   background-color: var(--hover-state);
   cursor: pointer;
@@ -71,6 +63,15 @@ a {
 }
 
 /* Navigation styles */
+
+.nav,
+.nav__hamburger,
+.hero__social,
+.card__tags,
+.contact__form form {
+  display: flex;
+}
+
 .nav__logo a {
   font-size: 1.3rem;
   font-weight: bold;
@@ -103,7 +104,7 @@ a {
   bottom: 0;
   height: 100%;
   background-color: #fff;
-  padding-top: 5.5rem;
+  padding-top: 4rem;
   padding-left: 2rem;
   font-weight: bold;
   font-size: 2rem;
@@ -404,6 +405,7 @@ textarea,
   .hero .container {
     display: flex;
   }
+
 
   .nav__links.show {
     justify-content: center;

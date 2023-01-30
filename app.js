@@ -18,4 +18,4 @@ menuLinks.forEach((menu) => {
     toggle.classList.remove('show');
     close.style.display = 'none';
   });
-});
+})
