@@ -82,7 +82,11 @@
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
+<<<<<<< HEAD
 > Describe how a new developer could make use of your project.
+=======
+> Create a local folder on your machine and clone this repository git clone https://github.com/dselasea/portfolio-1.git
+>>>>>>> parent of 8a04cfa (Update README.md)
 
 To get a local copy up and running, follow these steps.
 
