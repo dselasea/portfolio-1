@@ -68,9 +68,29 @@ a {
   color: var(--text-dark);
 }
 
-.nav__links-items {
+.nav__links {
   display: none;
 }
+
+.nav__links.show {
+  display: block;
+}
+
+.nav__links-items {
+  /* display: none; */
+  list-style-type: none;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  /* background-color: #fff; */
+}
+
+.close {
+  display: none;
+}
+
 
 .nav {
   display: flex;
@@ -82,6 +102,11 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+/* Mobile Navigation */
+.mobile__nav__links {
+  
 }
 
 /* Header Styles */
