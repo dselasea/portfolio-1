@@ -69,14 +69,13 @@
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-> Create a local folder on your machine and clone this repository git clone https://github.com/dselasea/portfolio-1.git
-
 To get a local copy up and running, follow these steps.
-
+Create a local folder on your machine and clone this repository git clone https://github.com/dselasea/portfolio-1.git
 ### Prerequisites
 
 In order to run this project you need:
-
+Git / Github
+Command Line Basics
 <!--
 Example command:
 
