@@ -94,13 +94,15 @@ a {
   bottom: 0;
   height: 100%;
   background-color: #fff;
-  padding-top: 200px;
+  padding-top: 8rem;
+  padding-left: 2rem;
   font-weight: bold;
   font-size: 2rem;
 }
 
 .nav__links-items li {
   align-items: center;
+  padding-bottom: 1rem;
 }
 
 .nav__links-items a {
@@ -109,7 +111,7 @@ a {
 
 .close {
   display: none;
-  z-index: 2;
+  z-index: 3;
 }
 
 
@@ -123,11 +125,6 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
-}
-
-/* Mobile Navigation */
-.mobile__nav__links {
-  
 }
 
 /* Header Styles */
@@ -402,11 +399,16 @@ textarea,
     width: 100%;
     display: flex;
     justify-content: center;
+    background: transparent;
   }
 
   .nav__links-items {
-    list-style: none;
     display: flex;
+    background-color: transparent;
+    position: static;
+    padding-top: 2rem;
+    padding-bottom: 0;
+    font-size: 1.5rem;
   }
 
   .nav__links-items a {
