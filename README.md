@@ -35,7 +35,7 @@
 > This is a simple webpage build from one of Microverse's portfolio templates.
 
 
-## 🛠 Built With <a name="built-with">Client</a>
+## 🛠 Built With <a name="built-with">HTML, CSS and JavaScript</a>
 
 ### Tech Stack <details>
   <summary>Structure</summary>
@@ -47,7 +47,7 @@
 
 <!-- Features -->
 
-### Key Features <a name="key-features"></a>
+### Key Features <a name="key-features">HTML Form, Mobile Menu, Responsive Design</a>
 
 > Describe between 1-3 key features of the application.
 
@@ -61,7 +61,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-> Add a link to your deployed project.
+> <a href="https://dselasea.github.io/portfolio-1/" target="_blank">Live Demo Link</a>
 
 - [Live Demo Link] <a href="https://dselasea.github.io/portfolio-1/" target="_blank">Click here</a>
 
