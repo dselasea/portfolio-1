@@ -37,7 +37,7 @@
 
 ## 🛠 Built With <a name="built-with">HTML, CSS and JavaScript</a>
 
-### Tech Stack <details>
+### Tech Stack HTML and CSS<details>
   <summary>Structure</summary>
   <ul>
     <li>HTML</li>
@@ -63,15 +63,13 @@
 
 > <a href="https://dselasea.github.io/portfolio-1/" target="_blank">Live Demo Link</a>
 
-- [Live Demo Link] <a href="https://dselasea.github.io/portfolio-1/" target="_blank">Click here</a>
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-> Describe how a new developer could make use of your project.
+> Create a local folder on your machine and clone this repository git clone https://github.com/dselasea/portfolio-1.git
 
 To get a local copy up and running, follow these steps.
 
