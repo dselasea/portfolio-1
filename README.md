@@ -1,57 +1,46 @@
 <a name="readme-top"></a>
 
-  <h3><b>Personal Portfolio project</b></h3>
+<div align="center">
+  <br/>
+
+  <h3><b>Daniel Selase's Portfolio project</b></h3>
 
 </div>
 
-<!-- TABLE OF CONTENTS -->
-
 # 📗 Table of Contents
 
-- [📖 About the Project](#)
-  - [🛠 Built With](#HTML-CSS)
-    - [Tech Stack](#THML-CSS)
-    - [Key Features](#h)
-  - [🚀 Live Demo](#live-demo)
+- [📖 About the Project](#about-project)
+  - [🛠 Built With](#built-with)
+    - [Tech Stack](#tech-stack)
+    - [Key Features](#key-features)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
-  - [Prerequisites](#HTML-CSS-GIT)
+  - [Prerequisites](#prerequisites)
   - [Install](#install)
   - [Usage](#usage)
   - [Run tests](#run-tests)
   - [Deployment](#triangular_flag_on_post-deployment)
-- [👥 Authors](#Daniel-Selase-Anyidoho)
-- [🔭 Future Features](#future-features)
-- [🤝 Contributing](#contributing)
+- [👥 Authors](#authors)
 - [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
 - [❓ FAQ (OPTIONAL)](#faq)
 - [📝 License](#license)
 
-<!-- PROJECT DESCRIPTION -->
 
-# 📖 [Portfolio Project] <a name="about-project">This is a Portfolio project to showcase my skills and for present and future projects</a>
+# 📖 [Daniel Selase's Portfolio Site] <a name="about-project">Microverse Portfolio Project</a>
 
-> Describe your project in 1 or 2 sentences.
+**Daniel Selase's Portfolio Site** This is a simple webpage build from one of Microverse's portfolio templates as part of mastering the use of HTML and CSS and also Building a personal portfolio project.
 
-**[Hello Microverse]** is a simple project that prepares and teaches the student how to use Linters in a Microverse Project
+## 🛠 Built With <a name="built-with"></a>
 
-## 🛠 Built With <a name="built-with">HTML and CSS</a>
+### Tech Stack <a name="tech-stack"></a>
 
-### Tech Stack <a name="tech-stack">HTML and CSS</a>
+## 🛠 Built With <a name="built-with">HTML, CSS and JavaScript</a>
 
-> Describe the tech stack and include only the relevant sections that apply to your project.
-
-<details>
+### Tech Stack HTML and CSS<details>
   <summary>Structure</summary>
   <ul>
     <li>HTML</li>
-  </ul>
-</details>
-
-<details>
-  <summary>Style</summary>
-  <ul>
     <li>CSS</li>
   </ul>
 </details>
@@ -60,21 +49,12 @@
 
 ### Key Features <a name="key-features"></a>
 
-> Describe between 1-3 key features of the application.
-
-- **[HTML]**
-- **[CSS]**
-- **[Linters]**
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- LIVE DEMO -->
-
-## 🚀 Live Demo <a name="live-demo"></a>
-
-> Add a link to your deployed project.
-
-- [Live Demo Link]() - https://dselasea.github.io/portfolio-1/
+- **Html page**
+- **CSS File**
+- **.gitignore file**
+- **Browsing to other Menus**
+- **Browsing to social links**
+- **Contact Form**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -83,16 +63,19 @@
 ## 💻 Getting Started <a name="getting-started"></a>
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 > Describe how a new developer could make use of your project.
 =======
 > Create a local folder on your machine and clone this repository git clone https://github.com/dselasea/portfolio-1.git
 >>>>>>> parent of 8a04cfa (Update README.md)
+=======
+>>>>>>> 660d2aa7e2071bdf18721e678e19891196397df4
 
 To get a local copy up and running, follow these steps.
 
 ### Prerequisites
 
-In order to run this project you need:
+In order to run this project you need: VS Code
 
 <!--
 Example command:
@@ -104,7 +87,7 @@ Example command:
 
 ### Setup
 
-Clone this repository to your desired folder:
+Clone this repository to your desired folder: https://github.com/dselasea/portfolio-1.git
 
 <!--
 Example commands:
@@ -117,7 +100,7 @@ Example commands:
 
 ### Install
 
-Install this project with:
+Install this project with: VS Code
 
 <!--
 Example command:
@@ -130,7 +113,7 @@ Example command:
 
 ### Usage
 
-To run the project, execute the following command:
+To run the project, execute the following command: npm start
 
 <!--
 Example command:
@@ -154,7 +137,7 @@ Example command:
 
 ### Deployment
 
-You can deploy this project using: Github pages or any hosting service
+You can deploy this project using: Github Pages
 
 <!--
 Example:
@@ -170,13 +153,63 @@ Example:
 
 ## 👥 Authors <a name="authors"></a>
 
-> Mention all of the collaborators of this project.
-
-👤 **Author1**
+👤 **Daniel Selase Anyidoho**
 
 - GitHub: [@dselasea](https://github.com/dselasea)
 - Twitter: [@danielsanyidoho](https://twitter.com/danielsanyidoho)
 - LinkedIn: [Daniel Selase Anyidoho](https://www.linkedin.com/in/danielsanyidoho/)
+
+👤 **Koshao Kazungu Godfrey**
+
+- GitHub: [@githubhandle](https://github.com/koshao-sys)
+- Twitter: [@twitterhandle](https://twitter.com/koshao)
+- LinkedIn: [LinkedIn](https://linkedin.com/in/koshao)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- FUTURE FEATURES -->
+
+## 🔭 Future Features <a name="future-features"></a>
+
+> Describe 1 - 3 features you will add to the project.
+
+- [ ] **Web view**
+- [ ] **Projects directory**
+- [ ] **Live chat**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- SUPPORT -->
+
+## ⭐️ Show your support <a name="support"></a>
+
+If you like this project hit me up on my email: dselasea@gmail.com or Twitter up there
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- ACKNOWLEDGEMENTS -->
+
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
+
+
+I would like to thank my coding partners for the support and the great ideas shared.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- FAQ (optional) -->
+
+## ❓ FAQ (OPTIONAL) <a name="faq"></a>
+
+- **How do you add an image in a span?**
+  - using the tag img
+
+- **How did you sort all the linterrors?**
+
+  - Read this to understand a linter for HTML and CSS(https://github.com/microverseinc/linters-config)
+
+- **How do you ignore files in your repository?**
+
+  - By adding there names to the .gitignore files.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
