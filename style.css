@@ -394,7 +394,7 @@ textarea,
 
 /* Modal Styles */
 .modal {
-  /* display: none; */
+  display: none;
   position: fixed;
   z-index: 40;
   left: 0;
@@ -402,6 +402,8 @@ textarea,
   height: 100%;
   width: 100%;
   background: rgba(0, 0, 0, 0.8);
+  animation-name: openModal;
+  animation-duration: 1s;
 }
 
 .modal-content {
@@ -422,6 +424,15 @@ textarea,
 .close-btn:hover {
   cursor: pointer;
   text-decoration: none;
+}
+@keyframes openModal {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
 }
 
 /* Desktop Styles min width 720px */

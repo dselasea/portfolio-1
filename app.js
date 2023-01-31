@@ -3,6 +3,11 @@ const hamburger = document.querySelector('.hamburger');
 const close = document.querySelector('.close');
 const menuLinks = document.querySelectorAll('.nav__links-items li');
 
+// Modal
+const modal = document.querySelector('#modal');
+const projectBtn = document.querySelectorAll('.projects .btn')
+const closeBtn = document.querySelectorAll('.close-btn');
+
 hamburger.addEventListener('click', () => {
   toggle.classList.toggle('show');
   close.style.display = 'block';
@@ -18,4 +23,11 @@ menuLinks.forEach((menu) => {
     toggle.classList.remove('show');
     close.style.display = 'none';
   });
+})
+
+// Open Modal
+projectBtn.forEach((btn) => {
+  btn.addEventListener('click', () => {
+    modal.style.display = "block"
+  })
 })
