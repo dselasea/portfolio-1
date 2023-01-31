@@ -6,7 +6,7 @@ const menuLinks = document.querySelectorAll('.nav__links-items li');
 // Modal
 const modal = document.querySelector('#modal');
 const projectBtn = document.querySelectorAll('.projects .btn')
-const closeBtn = document.querySelectorAll('.close-btn');
+const closeBtn = document.querySelector('.close-btn');
 
 hamburger.addEventListener('click', () => {
   toggle.classList.toggle('show');
@@ -30,4 +30,8 @@ projectBtn.forEach((btn) => {
   btn.addEventListener('click', () => {
     modal.style.display = "block"
   })
+})
+
+closeBtn.addEventListener('click', () => {
+  modal.style.display = 'none';
 })
