@@ -392,6 +392,38 @@ textarea,
   color: var(--dark);
 }
 
+/* Modal Styles */
+.modal {
+  /* display: none; */
+  position: fixed;
+  z-index: 40;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.8);
+}
+
+.modal-content {
+  background-color: #fff;
+  padding: 2rem;
+  width: 80%;
+  margin: 1rem auto;
+  border-radius: 10px;
+}
+
+.close-btn {
+  color: var(--dark);
+  float: right;
+  font-size: 2rem;
+}
+
+.close-btn:hover,
+.close-btn:hover {
+  cursor: pointer;
+  text-decoration: none;
+}
+
 /* Desktop Styles min width 720px */
 @media screen and (min-width: 768px) {
   .nav__logo,
