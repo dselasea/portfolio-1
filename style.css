@@ -9,6 +9,7 @@
   --gray: #ebf0ee;
   --hover-state: #36b37f;
   --active-state: #008552;
+  --menu-color: #344563;
 }
 
 * {
@@ -62,24 +63,73 @@ a {
 }
 
 /* Navigation styles */
+
+.nav,
+.nav__hamburger,
+.hero__social,
+.card__tags,
+.contact__form form {
+  display: flex;
+}
+
 .nav__logo a {
   font-size: 1.3rem;
   font-weight: bold;
   color: var(--text-dark);
 }
 
-.nav__links-items {
+.nav__links {
   display: none;
+  width: 100%;
+  background-color: #fff;
+  z-index: 1;
+  transition: 0.5s;
+  justify-content: center;
+}
+
+.nav__links.show {
+  display: block;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+}
+
+.nav__links-items {
+  display: block;
+  list-style-type: none;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  height: 100%;
+  background-color: #fff;
+  padding-top: 4rem;
+  padding-left: 2rem;
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+.nav__links-items li {
+  align-items: center;
+  padding-bottom: 1rem;
+}
+
+.nav__links-items a {
+  color: var(--menu-color);
+}
+
+.close {
+  display: none;
+  z-index: 3;
 }
 
 .nav {
-  display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
 .nav__hamburger {
-  display: flex;
   justify-content: center;
   align-items: center;
 }
@@ -126,7 +176,6 @@ a {
 .hero__social {
   padding: 1rem;
   list-style: none;
-  display: flex;
   justify-content: center;
   align-items: center;
 }
@@ -249,7 +298,6 @@ a {
 
 .card__tags {
   list-style: none;
-  display: flex;
   flex-wrap: wrap;
   justify-content: center;
 }
@@ -298,7 +346,6 @@ a {
 
 .contact__form form {
   text-align: center;
-  display: flex;
   flex-direction: column;
 }
 
@@ -352,15 +399,30 @@ textarea,
     display: none;
   }
 
+  .nav__links.show,
+  .nav__links,
+  .nav__links-items,
+  .hero .container {
+    display: flex;
+  }
+
+  .nav__links.show {
+    justify-content: center;
+    align-items: center;
+  }
+
   .nav__links {
     width: 100%;
-    display: flex;
     justify-content: center;
+    background: transparent;
   }
 
   .nav__links-items {
-    list-style: none;
-    display: flex;
+    background-color: transparent;
+    position: static;
+    padding-top: 2rem;
+    padding-bottom: 0;
+    font-size: 1.5rem;
   }
 
   .nav__links-items a {
@@ -380,7 +442,6 @@ textarea,
   }
 
   .hero .container {
-    display: flex;
     padding: 8rem 0 12rem 0;
     flex-direction: column;
     justify-content: center;

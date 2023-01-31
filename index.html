@@ -18,13 +18,14 @@
                 </div>
                 <div class="nav__links">
                     <ul class="nav__links-items">
-                        <li><a href="#">Portfolio</a></li>
-                        <li><a href="#">About</a></li>
-                        <li><a href="# ">Contact</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#contact">Contact</a></li>
                     </ul>
-                    <div class="nav__hamburger">
-                        <img src="./images/Enabled@2x.svg" alt="hamburger menu">
-                    </div>
+                </div>
+                <div class="nav__hamburger">
+                    <img src="./images/Enabled@2x.svg" alt="hamburger menu" class="hamburger">
+                    <img src="./images/close.svg" alt="close button" class="close">
                 </div>
             </nav>
         </div>
@@ -51,7 +52,7 @@
     </header>
 
     <!-- Recent Works -->
-    <section class="work">
+    <section class="work" id="portfolio">
         <div class="container">
             <div class="work__heading">
                 <h2 class="heading-2"><span class="work__heading-recent">My Recent</span> <span class="work__heading-work">Works</span></h2>
@@ -129,7 +130,7 @@
     </section>
 
     <!-- About me -->
-    <section class="about">
+    <section class="about" id="about">
         <div class="container">
             <div class="about__content">
                 <h2 class="heading-2">About me</h2>
@@ -167,7 +168,7 @@
                 <div class="card">
                     <img src="./images/icon-skills.svg" alt="">
                     <h4 class="card__title">Skills</h4>
-                    <ul class="card__tags">
+                    <ul class="card__tags flex">
                         <li><a href="#" class="card__tags-links">Codekit</a></li>
                         <li><a href="#" class="card__tags-links">Github</a></li>
                         <li><a href="#" class="card__tags-links">Codepen</a></li>
@@ -180,7 +181,7 @@
     </section>
 
     <!-- Contact -->
-    <section class="contact">
+    <section class="contact" id="contact">
         <div class="container">
             <div class="contact__content">
                 <div class="contact__text">
@@ -208,7 +209,7 @@
     <footer class="footer">
         <div class="containter">
              <div class="footer__social">
-                <ul class="hero__social">
+                <ul class="hero__social flex">
                     <li><a href="#" class="hero__social-links"><img src="./images/twitter.svg" alt="Twitter"></a></li>
                     <li><a href="#" class="hero__social-links"><img src="./images/Linkedin icon.svg" alt="Linkedin"></a></li>
                     <li><a href="#" class="hero__social-links"><img src="./images/medium.svg" alt="Meduim"></a></li>
@@ -219,5 +220,6 @@
              </div>
         </div>
     </footer>
+    <script src="app.js"></script>
 </body>
 </html>
