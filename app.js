@@ -18,7 +18,7 @@ const modalDescription = document.querySelector('#description');
 const projectItems = [
   {
     id: 1,
-    img: './images/snapshotmobile.png',
+    img: './images/snapshotdesktop.png',
     title: 'Multi-Post Stories Gain+Glory 1',
     technologies: ['Ruby on rails', 'css', 'JavaScript', 'html'],
     description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus sed labore maxime neque, omnis at soluta eius quo non, dolorum amet a fuga aspernatur aliquam modi odit, tempore perspiciatis architecto! Assumenda nostrum veniam ab cupiditate, error quidem numquam voluptas? Consequatur alias repudiandae architecto beatae doloremque dolor sit, eveniet delectus corrupti.',
@@ -26,7 +26,7 @@ const projectItems = [
   },
   {
     id: 2,
-    img: './images/snapshotmobile.png',
+    img: './images/snapshotdesktop.png',
     title: 'Multi-Post Stories Gain+Glory 2',
     technologies: ['Ruby on rails', 'css', 'JavaScript', 'html'],
     description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus sed labore maxime neque, omnis at soluta eius quo non, dolorum amet a fuga aspernatur aliquam modi odit, tempore perspiciatis architecto! Assumenda nostrum veniam ab cupiditate, error quidem numquam voluptas? Consequatur alias repudiandae architecto beatae doloremque dolor sit, eveniet delectus corrupti.',
@@ -34,7 +34,7 @@ const projectItems = [
   },
   {
     id: 3,
-    img: './images/snapshotmobile.png',
+    img: './images/snapshotdesktop.png',
     title: 'Multi-Post Stories Gain+Glory 3',
     technologies: ['Ruby on rails', 'css', 'JavaScript', 'html', 'git'],
     description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus sed labore maxime neque, omnis at soluta eius quo non, dolorum amet a fuga aspernatur aliquam modi odit, tempore perspiciatis architecto! Assumenda nostrum veniam ab cupiditate, error quidem numquam voluptas? Consequatur alias repudiandae architecto beatae doloremque dolor sit, eveniet delectus corrupti.',
@@ -42,7 +42,7 @@ const projectItems = [
   },
   {
     id: 4,
-    img: './images/snapshotmobile.png',
+    img: './images/snapshotdesktop.png',
     title: 'Multi-Post Stories Gain+Glory 4',
     technologies: ['Ruby on rails', 'css', 'JavaScript', 'html'],
     description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus sed labore maxime neque, omnis at soluta eius quo non, dolorum amet a fuga aspernatur aliquam modi odit, tempore perspiciatis architecto! Assumenda nostrum veniam ab cupiditate, error quidem numquam voluptas? Consequatur alias repudiandae architecto beatae doloremque dolor sit, eveniet delectus corrupti.',
@@ -50,7 +50,7 @@ const projectItems = [
   },
   {
     id: 5,
-    img: './images/snapshotmobile.png',
+    img: './images/snapshotdesktop.png',
     title: 'Multi-Post Stories Gain+Glory 5',
     technologies: ['Ruby on rails', 'css', 'JavaScript', 'html'],
     description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus sed labore maxime neque, omnis at soluta eius quo non, dolorum amet a fuga aspernatur aliquam modi odit, tempore perspiciatis architecto! Assumenda nostrum veniam ab cupiditate, error quidem numquam voluptas? Consequatur alias repudiandae architecto beatae doloremque dolor sit, eveniet delectus corrupti.',
@@ -58,7 +58,7 @@ const projectItems = [
   },
   {
     id: 6,
-    img: './images/snapshotmobile.png',
+    img: './images/snapshotdesktop.png',
     title: 'Multi-Post Stories Gain+Glory 6',
     technologies: ['Ruby on rails', 'css', 'JavaScript', 'html', 'React'],
     description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus sed labore maxime neque, omnis at soluta eius quo non, dolorum amet a fuga aspernatur aliquam modi odit, tempore perspiciatis architecto! Assumenda nostrum veniam ab cupiditate, error quidem numquam voluptas? Consequatur alias repudiandae architecto beatae doloremque dolor sit, eveniet delectus corrupti.',
@@ -92,7 +92,6 @@ projectBtn.addEventListener('click', (e) => {
   // Creates dynamic modal content
   for (let i = 0; i < projectItems.length; i += 1) {
     modalImage.style.backgroundImage = `url(${projectItems[e.target.id].img})`;
-    console.log(typeof projectItems[e.target.id].img)
     modalTitle.textContent = projectItems[e.target.id].title;
     modalDescription.textContent = projectItems[e.target.id].description;
   }

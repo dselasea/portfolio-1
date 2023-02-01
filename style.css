@@ -411,7 +411,7 @@ textarea,
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  height: 40rem;
+  height: 10rem;
 }
 
 .modal-Heading {
@@ -426,6 +426,11 @@ textarea,
 
 .modal-Heading .btn {
   display: none;
+  margin-left: 1rem;
+}
+
+.modal-btn-content {
+  display: flex;
 }
 
 .modal-content {
@@ -530,6 +535,18 @@ textarea,
   }
 
   .work__heading-work::before {
+    display: none;
+  }
+
+  #modal-image {
+    height: 30rem;
+  }
+
+  .modal-Heading .btn {
+    display: block;
+  }
+
+  .modal-footer .btn {
     display: none;
   }
 }
