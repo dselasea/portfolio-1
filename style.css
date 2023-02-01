@@ -404,6 +404,28 @@ textarea,
   background: rgba(0, 0, 0, 0.8);
   animation-name: openModal;
   animation-duration: 1s;
+  text-align: left;
+}
+
+#modal-image {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 40rem;
+}
+
+.modal-Heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.modal-Heading #modal-title {
+  padding: 1rem 0;
+}
+
+.modal-Heading .btn {
+  display: none;
 }
 
 .modal-content {
@@ -416,6 +438,8 @@ textarea,
 
 .close-btn {
   color: var(--dark);
+  padding: 1rem;
+  display: block;
   float: right;
   font-size: 2rem;
 }
