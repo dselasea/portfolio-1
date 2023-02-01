@@ -420,11 +420,11 @@ textarea,
   font-size: 2rem;
 }
 
-.close-btn:hover,
 .close-btn:hover {
   cursor: pointer;
   text-decoration: none;
 }
+
 @keyframes openModal {
   0% {
     opacity: 0;
