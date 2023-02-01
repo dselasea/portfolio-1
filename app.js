@@ -11,7 +11,6 @@ const projectBtn = document.querySelector('.projects')
 const closeBtn = document.querySelector('.close-btn');
 
 // Modal Content
-// const img = document.querySelector('')
 const modalImage = document.querySelector('#modal-image')
 const modalTitle = document.querySelector('#modal-title')
 const modalTags = document.querySelector('#tag-content')
