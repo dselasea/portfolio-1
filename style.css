@@ -407,6 +407,10 @@ textarea,
   text-align: left;
 }
 
+.modal .card__tags{
+  justify-content: flex-start;
+}
+
 #modal-image {
   background-repeat: no-repeat;
   background-size: cover;
