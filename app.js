@@ -18,6 +18,7 @@ const modalDescription = document.querySelector('#description');
 const form = document.querySelector('#form');
 const name = document.querySelector('#name');
 const email = document.querySelector('#email');
+const message = document.querySelector('#message');
 const valid = document.querySelector('.valid');
 
 // Project objects with items and description
@@ -145,4 +146,22 @@ form.addEventListener('submit', (event) => {
     name.value = '';
     email.value = '';
   }
+});
+
+// Local Storage
+
+window.addEventListener('beforeunload', () => {
+  const userForm = {
+    fullName: name.value,
+    email: email.value,
+    message: message.value,
+  };
+  localStorage.setItem('formData', JSON.stringify(userForm));
+});
+
+window.addEventListener('load', () => {
+  const savedData = JSON.parse(localStorage.getItem('formData'));
+  name.value = savedData.fullName;
+  email.value = savedData.email;
+  message.value = savedData.message;
 });
