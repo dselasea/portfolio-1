@@ -16,7 +16,7 @@ const modalDescription = document.querySelector('#description');
 
 // Form
 const form = document.querySelector('#form');
-const name = document.querySelector('#name');
+const stname = document.querySelector('#name');
 const email = document.querySelector('#email');
 const message = document.querySelector('#message');
 const valid = document.querySelector('.valid');
@@ -144,7 +144,7 @@ form.addEventListener('submit', (event) => {
     event.preventDefault();
   } else {
     valid.style.visibility = 'hidden';
-    name.value = '';
+    stname.value = '';
     email.value = '';
   }
 });
@@ -153,7 +153,7 @@ form.addEventListener('submit', (event) => {
 
 window.addEventListener('beforeunload', () => {
   const userForm = {
-    fullName: name.value,
+    fullName: stname.value,
     email: email.value,
     message: message.value,
   };
