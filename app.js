@@ -151,6 +151,13 @@ form.addEventListener('submit', (event) => {
 
 // Local Storage
 
+window.addEventListener('load', () => {
+  const savedData = JSON.parse(localStorage.getItem('formData'));
+  stname.value = savedData.fullName;
+  email.value = savedData.email;
+  message.value = savedData.message;
+});
+
 window.addEventListener('beforeunload', () => {
   const userForm = {
     fullName: stname.value,
