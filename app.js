@@ -119,6 +119,7 @@ projectBtn.addEventListener('click', (e) => {
     modalImage.style.backgroundImage = `url(${projectItems[e.target.id].img})`;
     modalTitle.textContent = projectItems[e.target.id].title;
     modalDescription.textContent = projectItems[e.target.id].description;
+    console.log(e.target.id);
   }
 
   // Creates Dynamic modal content for tags
@@ -157,11 +158,4 @@ window.addEventListener('beforeunload', () => {
     message: message.value,
   };
   localStorage.setItem('formData', JSON.stringify(userForm));
-});
-
-window.addEventListener('load', () => {
-  const savedData = JSON.parse(localStorage.getItem('formData'));
-  name.value = savedData.fullName;
-  email.value = savedData.email;
-  message.value = savedData.message;
 });
