@@ -380,6 +380,20 @@ textarea,
   border: 2px solid var(--gray);
 }
 
+/* Form validation styles */
+.contact__form .form-control input:invalid {
+  border: 2px solid red;
+}
+
+.contact__form .form-control input:valid {
+  border: 2px solid var(--active-state);
+}
+
+.valid {
+  color: red;
+  visibility: hidden;
+}
+
 /* Footer */
 .footer {
   padding-top: 1rem;

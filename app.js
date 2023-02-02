@@ -14,6 +14,12 @@ const modalTitle = document.querySelector('#modal-title');
 const modalTags = document.querySelector('#tag-content');
 const modalDescription = document.querySelector('#description');
 
+// Form
+const form = document.querySelector('#form');
+const name = document.querySelector('#name');
+const email = document.querySelector('#email');
+const valid = document.querySelector('.valid');
+
 // Project objects with items and description
 const projectItems = [
   {
@@ -66,6 +72,24 @@ const projectItems = [
   },
 ];
 
+// Mobile Menu
+hamburger.addEventListener('click', () => {
+  toggle.classList.toggle('show');
+  close.style.display = 'block';
+});
+
+close.addEventListener('click', () => {
+  toggle.classList.remove('show');
+  close.style.display = 'none';
+});
+
+menuLinks.forEach((menu) => {
+  menu.addEventListener('click', () => {
+    toggle.classList.remove('show');
+    close.style.display = 'none';
+  });
+});
+
 // Dynamic Content
 projectItems.forEach((item, index) => {
   let techItems = '';
@@ -111,20 +135,14 @@ modal.addEventListener('click', (e) => {
   }
 });
 
-// Mobile Menu
-hamburger.addEventListener('click', () => {
-  toggle.classList.toggle('show');
-  close.style.display = 'block';
-});
-
-close.addEventListener('click', () => {
-  toggle.classList.remove('show');
-  close.style.display = 'none';
-});
-
-menuLinks.forEach((menu) => {
-  menu.addEventListener('click', () => {
-    toggle.classList.remove('show');
-    close.style.display = 'none';
-  });
+// Form Validation
+form.addEventListener('submit', (event) => {
+  if (email.value !== email.value.toLowerCase()) {
+    valid.style.visibility = 'visible';
+    event.preventDefault();
+  } else {
+    valid.style.visibility = 'hidden';
+    name.value = '';
+    email.value = '';
+  }
 });
