@@ -119,7 +119,6 @@ projectBtn.addEventListener('click', (e) => {
     modalImage.style.backgroundImage = `url(${projectItems[e.target.id].img})`;
     modalTitle.textContent = projectItems[e.target.id].title;
     modalDescription.textContent = projectItems[e.target.id].description;
-    console.log(e.target.id);
   }
 
   // Creates Dynamic modal content for tags
