@@ -13,6 +13,8 @@ const modalImage = document.querySelector('#modal-image');
 const modalTitle = document.querySelector('#modal-title');
 const modalTags = document.querySelector('#tag-content');
 const modalDescription = document.querySelector('#description');
+const seeLiveBtn = document.querySelector('.see-live');
+const seeSourceBtn = document.querySelector('.see-source');
 
 // Form
 const form = document.querySelector('#form');
@@ -26,10 +28,12 @@ const projectItems = [
   {
     id: 1,
     img: './images/snapshotdesktop.png',
-    title: 'Multi-Post Stories Gain+Glory 1',
+    title: 'Comedy Crusade',
     technologies: ['Ruby on rails', 'css', 'JavaScript', 'html'],
-    description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus sed labore maxime neque, omnis at soluta eius quo non, dolorum amet a fuga aspernatur aliquam modi odit, tempore perspiciatis architecto! Assumenda nostrum veniam ab cupiditate, error quidem numquam voluptas? Consequatur alias repudiandae architecto beatae doloremque dolor sit, eveniet delectus corrupti.',
+    description: 'Comedy Crusade is a fictional comedy event that promises to be the ultimate laughter experience in Ghana. Featuring Ghana\'s top stand-up comedians, including Khemikal, OB, Putogo, MJ the comedian, Jacinta, and Lekzy de comic, this event is set to deliver non-stop hilarity and side-splitting entertainment.',
     buttonText: 'See Project',
+    gitLink: '',
+    demoLink: 'https://dselasea.github.io/comedy-crusade/'
   },
   {
     id: 2,
@@ -38,6 +42,8 @@ const projectItems = [
     technologies: ['Ruby on rails', 'css', 'JavaScript', 'html'],
     description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus sed labore maxime neque, omnis at soluta eius quo non, dolorum amet a fuga aspernatur aliquam modi odit, tempore perspiciatis architecto! Assumenda nostrum veniam ab cupiditate, error quidem numquam voluptas? Consequatur alias repudiandae architecto beatae doloremque dolor sit, eveniet delectus corrupti.',
     buttonText: 'See Project',
+    gitLink: '',
+    demoLink: 'https://dselasea.github.io/comedy-crusade/'
   },
   {
     id: 3,
@@ -46,6 +52,8 @@ const projectItems = [
     technologies: ['Ruby on rails', 'css', 'JavaScript', 'html', 'git'],
     description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus sed labore maxime neque, omnis at soluta eius quo non, dolorum amet a fuga aspernatur aliquam modi odit, tempore perspiciatis architecto! Assumenda nostrum veniam ab cupiditate, error quidem numquam voluptas? Consequatur alias repudiandae architecto beatae doloremque dolor sit, eveniet delectus corrupti.',
     buttonText: 'See Project',
+    gitLink: '',
+    demoLink: 'https://dselasea.github.io/comedy-crusade/'
   },
   {
     id: 4,
@@ -54,6 +62,8 @@ const projectItems = [
     technologies: ['Ruby on rails', 'css', 'JavaScript', 'html'],
     description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus sed labore maxime neque, omnis at soluta eius quo non, dolorum amet a fuga aspernatur aliquam modi odit, tempore perspiciatis architecto! Assumenda nostrum veniam ab cupiditate, error quidem numquam voluptas? Consequatur alias repudiandae architecto beatae doloremque dolor sit, eveniet delectus corrupti.',
     buttonText: 'See Project',
+    gitLink: '',
+    demoLink: 'https://dselasea.github.io/comedy-crusade/'
   },
   {
     id: 5,
@@ -62,6 +72,8 @@ const projectItems = [
     technologies: ['Ruby on rails', 'css', 'JavaScript', 'html'],
     description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus sed labore maxime neque, omnis at soluta eius quo non, dolorum amet a fuga aspernatur aliquam modi odit, tempore perspiciatis architecto! Assumenda nostrum veniam ab cupiditate, error quidem numquam voluptas? Consequatur alias repudiandae architecto beatae doloremque dolor sit, eveniet delectus corrupti.',
     buttonText: 'See Project',
+    gitLink: '',
+    demoLink: 'https://dselasea.github.io/comedy-crusade/'
   },
   {
     id: 6,
@@ -70,6 +82,8 @@ const projectItems = [
     technologies: ['Ruby on rails', 'css', 'JavaScript', 'html', 'React'],
     description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus sed labore maxime neque, omnis at soluta eius quo non, dolorum amet a fuga aspernatur aliquam modi odit, tempore perspiciatis architecto! Assumenda nostrum veniam ab cupiditate, error quidem numquam voluptas? Consequatur alias repudiandae architecto beatae doloremque dolor sit, eveniet delectus corrupti.',
     buttonText: 'See Project',
+    gitLink: '',
+    demoLink: 'https://dselasea.github.io/comedy-crusade/'
   },
 ];
 
@@ -119,6 +133,8 @@ projectBtn.addEventListener('click', (e) => {
     modalImage.style.backgroundImage = `url(${projectItems[e.target.id].img})`;
     modalTitle.textContent = projectItems[e.target.id].title;
     modalDescription.textContent = projectItems[e.target.id].description;
+    seeLiveBtn.setAttribute('src', `${projectItems[e.target.id].demoLink}`);
+    seeSourceBtn.setAttribute('src', `${projectItems[e.target.id].gitLink}`);
   }
 
   // Creates Dynamic modal content for tags
